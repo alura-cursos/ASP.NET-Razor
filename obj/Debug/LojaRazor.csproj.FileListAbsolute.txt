@@ -53,3 +53,8 @@ C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\bin\System
 C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\obj\Debug\LojaRazor.csprojResolveAssemblyReference.cache
 C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\obj\Debug\LojaRazor.dll
 C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\obj\Debug\LojaRazor.pdb
+C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\bin\en-us\LojaRazor.resources.dll
+C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\obj\Debug\LojaRazor.Internacionalizacao.Menssagens.resources
+C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\obj\Debug\LojaRazor.Internacionalizacao.Menssagens.en-us.resources
+C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\obj\Debug\LojaRazor.csproj.GenerateResource.Cache
+C:\Users\andre chaves\Documents\Visual Studio 2013\Projects\LojaRazor\obj\Debug\en-us\LojaRazor.resources.dll
