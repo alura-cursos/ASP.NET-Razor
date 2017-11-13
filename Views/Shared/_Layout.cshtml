@@ -5,36 +5,18 @@
     <link href="~/Content/Style.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            @Html.ActionLink("Loja Razor", "Index", "Home", null, new { @class = "brand" })
-            <ul class="nav">
-                <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                <li>@Html.ActionLink("Contato", "Contato", "Home")</li>
-            </ul>
-            <p class="navbar-text pull-right">
-                @if (Session["usuarioLogado"] != null)
-                {
-                    @: Bem-Vindo
-                    @Session["usuarioLogado"]
-                    @Html.ActionLink("Logout", "Logout", "Autenticacao")
-                }
-                else
-                {
-                    @: Olá Visitante,
-                    @Html.ActionLink("Login", "Index", "Login")
-                    @: ou
-                    @Html.ActionLink("Cadastre-se", "Form", "Usuarios")
-                }
-            </p>
+    @Html.Partial("_MenuSuperior")
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3">
+                <!-- menu -->
+                @Html.Action("Index", "Menu")
+            </div>
+            <div class="span9">
+                @RenderBody()
+            </div>
         </div>
     </div>
-    <div class="span3">
-        <!-- menu -->
-        @Html.Action("Index","Menu") 
-    </div>
-    <div class="span9">
-        @RenderBody()
-    </div>
+    @RenderSection("Scripts",false)
 </body>
 </html>
