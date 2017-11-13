@@ -1,0 +1,40 @@
+﻿<form action="@Url.Action("Cadastra")" method="post">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <label for="nome">Nome: </label>
+        <input id="nome" type="text" name="usuario.Nome" />
+
+        <label for="email">E-mail: </label>
+        <input id="email" type="text" name="usuario.Email" />
+
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" name="usuario.Senha" />
+
+        <label for="dataDeNascimento">Data de Nascimento: </label>
+        <input id="dataDeNascimento" type="text" name="usuario.DataDeNascimento" />
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados de Entrega</legend>
+
+        <label for="endereco">Endereço: </label>
+        <input id="endereco" type="text" name="usuario.Endereco" />
+
+        <label for="complemento">Complemento: </label>
+        <input id="complemento" type="text" name="usuario.Complemento" />
+
+        <label for="cep">CEP: </label>
+        <input id="cep" type="text" name="usuario.CEP" />
+
+        <label for="observacoes">Observações: </label>
+        <textarea id="observacoes" name="usuario.Observacoes"></textarea>
+    </fieldset>
+    <div>
+        <input name="usuario.RecebePromocoes" type="checkbox" value="true" />
+        Desejo receber informações sobre promoções
+    </div>
+
+    <input type="submit" value="Cadastrar" class="btn btn-large" />
+
+</form>
