@@ -1,13 +1,12 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link href="~/Content/bootstrap/css/bootstrap.css" rel="stylesheet" />
-    <link href="~/Content/Style.css" rel="stylesheet" />
+    @Styles.Render("~/bundles/estilos")
 </head>
 <body>
     @Html.Partial("_MenuSuperior")
     <div class="container-fluid">
-        <div class="row-fluid">
+        <div class="row-fluid ">
             <div class="span3">
                 <!-- menu -->
                 @Html.Action("Index", "Menu")
