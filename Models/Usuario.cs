@@ -14,10 +14,14 @@ namespace LojaRazor.Models
         [Required, EmailAddress]
         public String Email { get; set; }
 
+        public Sexo Sexo { get; set; }
+        
+        public Estado Estado { get; set; }
+
         [Required, MinLength(3)]
         public String Senha { get; set; }
 
-        [Required]
+        [Required, DisplayFormat(DataFormatString="{0:d}", ApplyFormatInEditMode=false)]
         public DateTime DataDeNascimento { get; set; }
 
         [Required]
@@ -28,7 +32,7 @@ namespace LojaRazor.Models
         [Required, RegularExpression("\\d{5}-\\d{3}")]
         public String CEP { get; set; }
 
-        public string Observacoes { get; set; }
+        public String Observacoes { get; set; }
 
         public bool RecebePromocoes { get; set; }
     }
