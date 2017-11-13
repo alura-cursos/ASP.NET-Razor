@@ -124,6 +124,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AutenticacaoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="DAO\DepartamentosDAO.cs" />
     <Compile Include="DAO\ProdutosDAO.cs" />
@@ -232,6 +233,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contato.cshtml" />
     <Content Include="Views\Usuarios\Form.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Menu\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
